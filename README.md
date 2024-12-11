@@ -74,7 +74,6 @@ Status: Downloaded newer image for nginx:latest
 [vince@VM-DOCKER ~]$ docker ps
 CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS          PORTS                                     NAMES
 3e64ecfabdb3   nginx     "/docker-entrypoint.…"   About a minute ago   Up 59 seconds   0.0.0.0:9999->80/tcp, [::]:9999->80/tcp   stupefied_merkle
-
 ```
 
 ```
@@ -331,7 +330,6 @@ Python 3.11.11
  => => exporting layers                                                                                                                               59.5s
  => => writing image sha256:f93328df2dfc5b0be78e0245750a6f2fe6eadf1465d099927f0ceccfb4bc73b8                                                           0.1s
  => => naming to docker.io/library/python_app:version_de_ouf                                                                                           0.1s
-
 ```
 ```
 [vince@VM-DOCKER python_app_build]$ docker images
@@ -407,7 +405,6 @@ root   55644   55600   0    12:25   ?     00:00:00   sleep 9999
 compose_test-conteneur_nul-1
 UID    PID     PPID    C    STIME   TTY   TIME       CMD
 root   55636   55593   0    12:25   ?     00:00:00   sleep 9999
-
 ```
 
 🌞 Pop un shell dans le conteneur conteneur_nul
@@ -418,11 +415,10 @@ root   55636   55593   0    12:25   ?     00:00:00   sleep 9999
 ```
 # apt update
 # apt install iputils-ping
-
 ```
 
 ```
-ping conteneur_flopesque
+# ping conteneur_flopesque
 PING conteneur_flopesque (172.18.0.3) 56(84) bytes of data.
 64 bytes from compose_test-conteneur_flopesque-1.compose_test_default (172.18.0.3): icmp_seq=1 ttl=64 time=0.587 ms
 64 bytes from compose_test-conteneur_flopesque-1.compose_test_default (172.18.0.3): icmp_seq=2 ttl=64 time=0.154 ms
@@ -431,5 +427,5 @@ PING conteneur_flopesque (172.18.0.3) 56(84) bytes of data.
 --- conteneur_flopesque ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2005ms
 rtt min/avg/max/mdev = 0.131/0.290/0.587/0.209 ms
-
+#
 ```
