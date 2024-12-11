@@ -420,7 +420,9 @@ root   55636   55593   0    12:25   ?     00:00:00   sleep 9999
 # apt install iputils-ping
 
 ```
-# ping conteneur_flopesque
+
+```
+ping conteneur_flopesque
 PING conteneur_flopesque (172.18.0.3) 56(84) bytes of data.
 64 bytes from compose_test-conteneur_flopesque-1.compose_test_default (172.18.0.3): icmp_seq=1 ttl=64 time=0.587 ms
 64 bytes from compose_test-conteneur_flopesque-1.compose_test_default (172.18.0.3): icmp_seq=2 ttl=64 time=0.154 ms
@@ -429,5 +431,5 @@ PING conteneur_flopesque (172.18.0.3) 56(84) bytes of data.
 --- conteneur_flopesque ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2005ms
 rtt min/avg/max/mdev = 0.131/0.290/0.587/0.209 ms
-#
+
 ```
