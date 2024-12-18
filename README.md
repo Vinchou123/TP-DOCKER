@@ -429,3 +429,25 @@ PING conteneur_flopesque (172.18.0.3) 56(84) bytes of data.
 rtt min/avg/max/mdev = 0.131/0.290/0.587/0.209 ms
 #
 ```
+
+# TP2 : Utilisation courante de Docker
+
+### I. Commun à tous : App Web
+
+### TP2 Commun : Stack Web
+
+https://github.com/Vinchou123/TP2-StackWeb.git
+
+
+
+
+
+## TP2 dév : packaging et environnement de dév local
+
+### I. Packaging
+
+#### 1. Calculatrice
+
+[Le lien vers votre dépôt calculatrice](https://github.com/Vinchou123/depot_git_calculatrice.git)
+
+
