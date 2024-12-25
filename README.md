@@ -448,6 +448,18 @@ https://github.com/Vinchou123/TP2-StackWeb.git
 
 #### 1. Calculatrice
 
-[Le lien vers votre dépôt calculatrice](https://github.com/Vinchou123/depot_git_calculatrice.git)
+[Le lien vers le dépôt calculatrice](https://github.com/Vinchou123/depot_git_calculatrice.git)
 
 
+#### 2. Chat room
+
+[Le lien vers le dépôt Chatroom](https://github.com/Vinchou123/Chatroom-Docker.git)
+
+ # TP3 Dév : IDS
+
+ ### 0. Setup
+
+ https://github.com/Vinchou123/TP3-Docker.git 
+
+ ### I. Instructions générales
+ 
